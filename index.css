@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, a {
+    font-family: 'Muli', sans-serif;
+    color: #333;
+  }
+  
+  input[type="text"] {
+      width: 250px;
+  }
+
+  button, input[type="text"] {
+    font-family: 'Muli', sans-serif;
+    padding: 10px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  li, img {
+    max-width: 500px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
